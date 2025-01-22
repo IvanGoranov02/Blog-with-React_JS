@@ -7,14 +7,14 @@
   max-width: 300px;
   height: 55%;
 
-  position: relative; 
+  position: relative;
 }
 
 .profile-header {
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
-  position: relative; 
+  position: relative;
 }
 
 .avatar {
@@ -80,5 +80,5 @@
   cursor: pointer;
 }
 .icon-button.selected .icon {
-  color: #ff6600; 
+  color: #ff6600;
 }

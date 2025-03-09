@@ -1,7 +1,10 @@
 .App {
   position: relative;
-  background-color: #F6F7F9;
+  background-color: #f6f7f9;
   overflow-x: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .background-image {
@@ -11,7 +14,7 @@
   width: 100%;
   height: 66%;
   z-index: 0;
-  background: url('../assets/bgground.svg') no-repeat;
+  background: url("../assets/bgground.svg") no-repeat;
   background-size: contain;
   z-index: 0;
 }
@@ -22,7 +25,7 @@
   left: 0;
   width: 40%;
   height: 40%;
-  background: url('../assets/Group.svg') no-repeat;
+  background: url("../assets/Group.svg") no-repeat;
   background-size: contain;
   z-index: 0;
 }
@@ -34,7 +37,7 @@
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
-  z-index: 1; 
+  z-index: 1;
 }
 
 .feed-container {
@@ -45,7 +48,7 @@
 @media (max-width: 768px) {
   .background-image,
   .background-image-bottom-left {
-    background-size: contain; 
+    background-size: contain;
     width: 100%;
     height: auto;
   }
@@ -62,13 +65,10 @@
 }
 
 @media (max-width: 1010px) {
-
   .background-image-bottom-left {
     background-size: contain;
     bottom: -30%;
   }
- 
-
 }
 @media (max-width: 1350px) {
   .background-image {
@@ -84,7 +84,8 @@
   padding: 1rem;
   background-color: #ffff;
   color: #555;
+  margin-top: auto;
   position: relative;
-  bottom: 0;
   width: 100%;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }

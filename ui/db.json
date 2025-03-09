@@ -692,16 +692,14 @@
       "title": "Candidate for a front-end developer at HackSoft",
       "content": "testov test",
       "reactions": {
-        "like": 1,
+        "like": 0,
         "love": 0,
         "laugh": 0,
         "surprise": 0
       },
       "comments": [],
       "time": "2024-07-08T14:03:24.694Z",
-      "userReactions": {
-        "Ivan Goranov": "like"
-      }
+      "userReactions": {}
     },
     {
       "id": "dad3",
@@ -715,7 +713,18 @@
         "laugh": 0,
         "surprise": 0
       },
-      "comments": [],
+      "comments": [
+        {
+          "text": "asdasd",
+          "user": "Ivan Goranov",
+          "avatar": "/static/media/avatar.1274aeb15610b25939d3.png"
+        },
+        {
+          "text": "test\n",
+          "user": "Ivan Goranov",
+          "avatar": "/static/media/avatar.1274aeb15610b25939d3.png"
+        }
+      ],
       "time": "2024-07-08T14:03:35.926Z",
       "userReactions": {
         "Ivan Goranoff": "like"

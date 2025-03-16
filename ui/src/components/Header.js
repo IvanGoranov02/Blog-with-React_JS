@@ -9,7 +9,10 @@ const Header = () => {
 
   return (
     <header className={`header ${sticky ? "sticky" : ""}`}>
-      <img src={logo} alt="HackSoft Logo" className="logo" />
+      <div className="logo-container">
+        <img src={logo} alt="HackSoft Logo" className="logo" />
+        <h1 className="site-title">HackSoft Blog</h1>
+      </div>
       <div className="profile-icon">
         <img src={avatar} alt="Profile" />
       </div>

@@ -1,27 +1,48 @@
 {
-  "name": "hacksoft-task",
+  "name": "it-community-platform",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "cypress": "cypress open",
+    "cypress:run": "cypress run"
+  },
   "dependencies": {
+    "@supabase/auth-helpers-nextjs": "^0.9.0",
+    "@supabase/supabase-js": "^2.39.6",
+    "@tanstack/react-query": "^5.24.0",
+    "date-fns": "^3.6.0",
+    "next": "14.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.51.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.2.1",
+    "react-markdown": "^9.0.1",
+    "zod": "^3.22.4",
+    "zustand": "^4.5.1"
+  },
+  "devDependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "axios": "^1.7.2",
-    "date-fns": "^3.6.0",
-    "json-server": "^1.0.0-beta.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-hot-toast": "^2.4.1",
-    "react-icons": "^5.2.1",
-    "react-scripts": "5.0.1",
-    "styled-components": "^6.1.11",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.30",
+    "@types/react": "^18.2.60",
+    "@types/react-dom": "^18.2.19",
+    "autoprefixer": "^10.4.17",
+    "cypress": "^13.6.4",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.1.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
   },
   "eslintConfig": {
     "extends": [
